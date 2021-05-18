@@ -35,7 +35,7 @@
 mod commitment;
 pub mod witness;
 
-pub use commitment::{Commitment, SignedCommitment, VersionedCommitment};
+pub use commitment::{Commitment, SignedCommitment};
 
 use codec::{Codec, Decode, Encode};
 use sp_core::H256;
