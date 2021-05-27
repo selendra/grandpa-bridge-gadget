@@ -18,10 +18,10 @@ jsonrpc-pubsub = "15.1.0"
 
 codec = { version = "2.0.0", package = "parity-scale-codec", features = ["derive"] }
 
-sc-rpc = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn2" }
+sc-rpc = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn1" }
 
-sp-core = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn2" }
-sp-runtime = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn2" }
+sp-core = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn1" }
+sp-runtime = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn1" }
 
 beefy-gadget = { path = "../." }
 beefy-primitives = { path = "../../beefy-primitives" }

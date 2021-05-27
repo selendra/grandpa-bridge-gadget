@@ -13,21 +13,21 @@ parking_lot = "0.11"
 thiserror = "1.0"
 
 codec = { version = "2.0.0", package = "parity-scale-codec", features = ["derive"] }
-prometheus = { package = "substrate-prometheus-endpoint", git = "https://github.com/selendra/substrate", branch = "0.1.0-tn2" }
+prometheus = { package = "substrate-prometheus-endpoint", git = "https://github.com/selendra/substrate", branch = "0.1.0-tn1"}
 
-sp-api = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn2" }
-sp-application-crypto = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn2" }
-sp-arithmetic = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn2" }
-sp-blockchain = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn2" }
-sp-consensus = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn2" }
-sp-core = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn2" }
-sp-keystore = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn2" }
-sp-runtime = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn2" }
-sp-utils = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn2" }
+sp-api = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn1" }
+sp-application-crypto = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn1" }
+sp-arithmetic = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn1" }
+sp-blockchain = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn1" }
+sp-consensus = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn1" }
+sp-core = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn1" }
+sp-keystore = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn1" }
+sp-runtime = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn1" }
+sp-utils = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn1" }
 
-sc-client-api = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn2" }
-sc-keystore = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn2" }
-sc-network = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn2" }
-sc-network-gossip = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn2" }
+sc-client-api = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn1" }
+sc-keystore = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn1" }
+sc-network = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn1" }
+sc-network-gossip = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn1" }
 
 beefy-primitives = { path = "../beefy-primitives" }
