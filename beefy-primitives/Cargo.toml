@@ -8,11 +8,11 @@ license = "GPL-3.0-or-later WITH Classpath-exception-2.0"
 [dependencies]
 codec = { version = "2.0.0", package = "parity-scale-codec", default-features = false, features = ["derive"] }
 
-sp-api = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn2" }
-sp-application-crypto = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn2" }
-sp-core = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn2" }
-sp-runtime = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn2" }
-sp-std = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn2" }
+sp-api = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
+sp-application-crypto = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
+sp-core = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
+sp-runtime = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
+sp-std = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
 
 [dev-dependencies]
 hex-literal = "0.3"
