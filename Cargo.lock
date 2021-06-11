@@ -552,7 +552,7 @@ dependencies = [
  "hex-literal",
  "pallet-aura",
  "pallet-balances",
- "pallet-beefy",
+ "pallet-beefy-test",
  "pallet-grandpa",
  "pallet-mmr",
  "pallet-randomness-collective-flip",
@@ -4120,7 +4120,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "pallet-beefy"
+name = "pallet-beefy-test"
 version = "0.1.0"
 dependencies = [
  "beefy-primitives",
