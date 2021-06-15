@@ -16,7 +16,7 @@ name = "beefy-node"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [build-dependencies]
-substrate-build-script-utils = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
+substrate-build-script-utils = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
 
 [dependencies]
 jsonrpc-core = "15.0.0"
@@ -29,36 +29,36 @@ beefy-gadget-rpc = { version = "0.1.0", path = "../../beefy-gadget/rpc" }
 beefy-node-runtime = { path = "../runtime", version = "2.0.0" }
 
 # Substrate dependencies
-frame-benchmarking = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
-frame-benchmarking-cli = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
-pallet-transaction-payment-rpc = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
+frame-benchmarking = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
+frame-benchmarking-cli = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
+pallet-transaction-payment-rpc = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
 
-sc-basic-authorship = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
-sc-cli = { git = "https://github.com/selendra/substrate", features = ["wasmtime"], branch = "0.1.0-tn3" }
-sc-client-api = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
-sc-consensus = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
-sc-consensus-aura = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
-sc-executor = { git = "https://github.com/selendra/substrate", features = ["wasmtime"], branch = "0.1.0-tn3" }
-sc-finality-grandpa = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
-sc-rpc = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
-sc-rpc-api = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
-sc-service = { git = "https://github.com/selendra/substrate", features = ["wasmtime"], branch = "0.1.0-tn3" }
-sc-telemetry = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
-sc-transaction-pool = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
+sc-basic-authorship = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
+sc-cli = { git = "https://github.com/selendra/substrate", features = ["wasmtime"], branch = "0.1.0-tn4" }
+sc-client-api = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
+sc-consensus = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
+sc-consensus-aura = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
+sc-executor = { git = "https://github.com/selendra/substrate", features = ["wasmtime"], branch = "0.1.0-tn4" }
+sc-finality-grandpa = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
+sc-rpc = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
+sc-rpc-api = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
+sc-service = { git = "https://github.com/selendra/substrate", features = ["wasmtime"], branch = "0.1.0-tn4" }
+sc-telemetry = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
+sc-transaction-pool = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
 
-sp-api = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
-sp-block-builder = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
-sp-blockchain = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
-sp-consensus = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
-sp-consensus-aura = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
-sp-core = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
-sp-finality-grandpa = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
-sp-inherents = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
-sp-runtime = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
-sp-timestamp = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
-sp-transaction-pool = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
+sp-api = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
+sp-block-builder = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
+sp-blockchain = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
+sp-consensus = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
+sp-consensus-aura = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
+sp-core = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
+sp-finality-grandpa = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
+sp-inherents = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
+sp-runtime = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
+sp-timestamp = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
+sp-transaction-pool = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
 
-substrate-frame-rpc-system = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn3" }
+substrate-frame-rpc-system = { git = "https://github.com/selendra/substrate", branch = "0.1.0-tn4" }
 
 [features]
 default = []

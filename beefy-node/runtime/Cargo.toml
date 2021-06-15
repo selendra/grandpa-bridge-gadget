@@ -29,32 +29,32 @@ beefy-primitives = { path = "../../beefy-primitives", default-features = false }
 pallet-beefy = { path = "../../beefy-pallet", default-features = false }
 
 # Substrate dependencies
-frame-benchmarking = { git = "https://github.com/selendra/substrate", default-features = false, optional = true, branch = "0.1.0-tn3" }
-frame-executive = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
-frame-support = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
-frame-system = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
-frame-system-benchmarking = { git = "https://github.com/selendra/substrate", default-features = false, optional = true, branch = "0.1.0-tn3" }
-frame-system-rpc-runtime-api = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
-pallet-aura = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
-pallet-balances = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
-pallet-grandpa = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
-pallet-mmr = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
-pallet-randomness-collective-flip = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
-pallet-sudo = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
-pallet-timestamp = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
-pallet-transaction-payment = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
-pallet-transaction-payment-rpc-runtime-api = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
-sp-api = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
-sp-block-builder = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
-sp-consensus-aura = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
-sp-core = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
-sp-inherents = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
-sp-offchain = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
-sp-runtime = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
-sp-session = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
-sp-std = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
-sp-transaction-pool = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
-sp-version = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn3" }
+frame-benchmarking = { git = "https://github.com/selendra/substrate", default-features = false, optional = true, branch = "0.1.0-tn4" }
+frame-executive = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn4" }
+frame-support = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn4" }
+frame-system = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn4" }
+frame-system-benchmarking = { git = "https://github.com/selendra/substrate", default-features = false, optional = true, branch = "0.1.0-tn4" }
+frame-system-rpc-runtime-api = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn4" }
+pallet-aura = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn4" }
+pallet-balances = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn4" }
+pallet-grandpa = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn4" }
+pallet-mmr = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn4" }
+pallet-randomness-collective-flip = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn4" }
+pallet-sudo = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn4" }
+pallet-timestamp = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn4" }
+pallet-transaction-payment = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn4" }
+pallet-transaction-payment-rpc-runtime-api = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn4" }
+sp-api = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn4" }
+sp-block-builder = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn4" }
+sp-consensus-aura = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn4" }
+sp-core = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn4" }
+sp-inherents = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn4" }
+sp-offchain = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn4" }
+sp-runtime = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn4" }
+sp-session = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn4" }
+sp-std = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn4" }
+sp-transaction-pool = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn4" }
+sp-version = { git = "https://github.com/selendra/substrate", default-features = false, branch = "0.1.0-tn4" }
 
 [features]
 default = ["std"]

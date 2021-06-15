@@ -53,7 +53,7 @@ pub fn new_partial(config: &Configuration) -> Result<ServiceComponents, ServiceE
 		.transpose()?;
 
 	let (client, backend, keystore_container, task_manager) = sc_service::new_full_parts::<Block, RuntimeApi, Executor>(
-		&config,
+		config,
 		telemetry.as_ref().map(|(_, telemetry)| telemetry.handle()),
 	)?;
 
@@ -70,7 +70,7 @@ pub fn new_partial(config: &Configuration) -> Result<ServiceComponents, ServiceE
 		config.transaction_pool.clone(),
 		config.role.is_authority().into(),
 		config.prometheus_registry(),
-		task_manager.spawn_handle(),
+		task_manager.spawn_essential_handle(),
 		client.clone(),
 	);
 
@@ -210,7 +210,7 @@ pub fn new_full(mut config: Configuration) -> Result<TaskManager, ServiceError> 
 		let slot_duration = sc_consensus_aura::slot_duration(&*client)?;
 		let raw_slot_duration = slot_duration.slot_duration();
 
-		let aura = sc_consensus_aura::start_aura::<AuraPair, _, _, _, _, _, _, _, _, _, _>(StartAuraParams {
+		let aura = sc_consensus_aura::start_aura::<AuraPair, _, _, _, _, _, _, _, _, _, _, _>(StartAuraParams {
 			slot_duration,
 			client: client.clone(),
 			select_chain,
@@ -231,6 +231,7 @@ pub fn new_full(mut config: Configuration) -> Result<TaskManager, ServiceError> 
 			keystore: keystore_container.sync_keystore(),
 			can_author_with,
 			sync_oracle: network.clone(),
+			justification_sync_link: network.clone(),
 			block_proposal_slot_portion: SlotProportion::new(2f32 / 3f32),
 			telemetry: telemetry.as_ref().map(|x| x.handle()),
 		})?;
